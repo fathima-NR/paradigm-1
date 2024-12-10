@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { motion } from 'framer-motion';
-import './homeAbout.css'; // Ensure the CSS file is correctly imported
+import './homeabout.css'; // Ensure the CSS file is correctly imported
 import aboutimg1 from "/src/assets/medium-shot-architect-engineer-looking-plans.jpg"
 function HomeAbout() {
   // States to track visibility
