@@ -1,0 +1,108 @@
+
+.heading1 {
+   font-size: 7vw;
+color: #000000;
+}
+
+/* Ensure consistent styling for form controls */
+.footer-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 47px;
+  }
+  
+  .footer-input {
+    background: transparent;
+    border: none;
+    border-bottom: .1rem solid #a3a3a3;
+    color: #a3a3a3;
+  
+    padding: 2px;
+    font-family: Poppins, sans-serif;
+    font-size: 15px;
+
+  }
+  
+  .footer-input:focus {
+    outline: none;
+    border-bottom: 1px solid #000000; /* Change color on focus */
+  }
+  
+  .footer-button {
+    background-color: #000000;
+    color: white;
+border: 1px solid black;
+   border-radius: 50px;
+    cursor: pointer;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .footer-button:hover {
+    background-color:white; /* Darken on hover */
+    color:rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+  }
+  /* Example animation for heading1 */
+/* Example CSS animation definitions */
+@keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .animate-heading1 {
+    animation: fadeInUp 1s ease-out forwards;
+  }
+  
+  .animate-caption1 {
+    animation: fadeInUp 1s ease-out forwards;
+  }
+  
+  .animate-paragraph {
+    animation: fadeInUp 1s ease-out forwards;
+  }
+  
+  .animate-form {
+    animation: fadeInUp 1s ease-out backwards;
+  }
+  
+
+  /* Media query for devices with a max-width of 768px (tablets) */
+  @media (max-width: 768px) {
+    .management-image img {
+      height: 250px; /* Adjust height for smaller screens */
+    }
+  }
+  
+  /* Media query for devices with a max-width of 576px (large phones) */
+  @media (max-width: 576px) {
+    .management-image img {
+      height: 250px; /* Adjust height for phones */
+      
+    }
+    .management-caption{
+        position: absolute;
+        top: 37%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+
+    }
+  }
+  
+  /* Media query for devices with a max-width of 375px (small phones) */
+  @media (max-width: 375px) {
+    .management-image img {
+      height: 200px; /* Adjust height for very small screens */
+
+    }
+  }
+
+
+

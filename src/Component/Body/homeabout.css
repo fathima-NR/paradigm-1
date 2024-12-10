@@ -1,0 +1,11 @@
+/* Add this to your CSS file (e.g., HomeAbout.css) */
+
+.custom-progress-bar {
+    height: 3px; /* Adjust the height as needed */
+    border-radius: 5px; /* Optional: Adds rounded corners */
+  }
+  
+  .custom-progress-bar .progress-bar {
+    height: 100%; /* Ensures the progress bar fills the container */
+  }
+  

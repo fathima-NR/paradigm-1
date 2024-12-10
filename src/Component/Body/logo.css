@@ -1,0 +1,68 @@
+/* Logo.css */
+.logo-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    padding: 20px; /* Adjust padding as needed */
+  }
+  
+  .logo-slider {
+    display: flex;
+    width: 100%;
+    animation: slide 20s linear infinite;
+  }
+  
+  .logo-slider img {
+    width: 300px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px; /* Space between images */
+  }
+  
+  @keyframes slide {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  /* Media Queries */
+  
+  /* For large screens (desktops, laptops) */
+  @media (min-width: 1200px) {
+    .logo-slider img {
+      width: 250px; /* Smaller logo size for large screens */
+      margin-right: 20px;
+    }
+  }
+  
+  /* For medium screens (tablets) */
+  @media (max-width: 1199px) and (min-width: 768px) {
+    .logo-container {
+      padding: 15px; /* Reduce padding */
+    }
+    .logo-slider img {
+      width: 200px; /* Adjust size for tablets */
+      margin-right: 15px;
+    }
+    .logo-slider {
+      animation: slide 25s linear infinite; /* Slower animation for better readability */
+    }
+  }
+  
+  /* For small screens (mobile phones) */
+  @media (max-width: 767px) {
+    .logo-container {
+      padding: 10px; /* Less padding for small screens */
+    }
+    .logo-slider img {
+      width: 150px; /* Smaller logo size for mobile */
+      margin-right: 10px;
+    }
+    .logo-slider {
+      animation: slide 30s linear infinite; /* Slow down animation for small screens */
+    }
+  }
+  

@@ -1,0 +1,42 @@
+.border-animation {
+    position: relative;
+    border: 2px solid transparent;
+    background-clip: padding-box;
+    padding: 20px;
+  }
+  
+  .border-animation::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+    box-sizing: border-box;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 1s ease;
+  }
+  
+  .border-animation::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+    box-sizing: border-box;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 1s ease;
+    transition-delay: 1s;
+  }
+  
+  .border-animation:hover::before,
+  .border-animation:hover::after {
+    transform: scaleX(1);
+    transform: scaleY(1);
+  }
+  

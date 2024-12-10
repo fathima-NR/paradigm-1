@@ -1,0 +1,95 @@
+.footer {
+    background-color: #f8f9fa; /* Light background color for the footer */
+    padding: 20px; /* Reduce padding to decrease the footer height */
+    border-top: 1px solid #ddd; /* Optional: Add a top border for separation */
+  }
+  
+  .footer img {
+    max-width: 100%; /* Ensure the logo is responsive */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .footer .row {
+    margin-bottom: 0; /* Remove bottom margin to reduce height */
+  }
+  
+  .footer h6 {
+    font-size: 14px; /* Smaller font size to reduce space */
+    margin-bottom: 10px; /* Reduced space between elements */
+  }
+  
+  .footer p {
+    margin: 0; /* Remove margins for paragraph elements */
+  }
+  
+  .footer .col-sm-2, .footer .col-sm-3 {
+    padding-left: 10px; /* Adjust padding for spacing */
+    padding-right: 10px;
+  }
+  
+  .footer .link {
+    color:white;
+    text-decoration: none; /* Remove underline from links */
+    transition: all .1s ease-in;
+  }
+  
+  .footer .link:hover {
+    color: #4db4e5;
+    text-shadow:  1px 1px   black;
+    padding: 2px;
+  }
+  
+  .footer .icon-circle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px; /* Adjust size as needed */
+    height: 35px; /* Adjust size as needed */
+    border-radius: 50%; /* Makes the span a circle */
+    background-color: #4db4e5; /* Background color of the circle */
+    color: black; /* Icon color */
+    margin-left: 10px; /* Spacing between icons */
+    font-size: 15px; /* Adjust the icon size */
+    border: 2px solid black;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .footer .icon-circle:first-child {
+    margin-left: 0; /* Remove margin on the first icon */
+  }
+  
+  .footer .icon-circle:hover {
+    color: black;
+    border: 1px solid #4db4e5;
+  }
+  
+  .footer .flash-effect {
+    position: relative;
+    overflow: hidden;
+    border: 0;
+    background-color: #4db4e5; /* Initial background color */
+    color: black; /* Initial text color */
+    padding: 10px 20px; /* Adjust padding to control button size */
+    transition: background-color 0.4s ease, color 0.4s ease;
+  }
+  
+  .footer .flash-effect::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: black;
+    transition: left 0.6s ease;
+  }
+  
+  .footer .flash-effect:hover {
+    background-color: black; /* Background color on hover */
+    color: #4db4e5; /* Text color on hover */
+  }
+  
+  .footer .flash-effect:hover::before {
+    left: 100%;
+  }
+  
