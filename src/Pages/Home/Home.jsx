@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { TbCircleNumber1Filled, TbCircleNumber2Filled, TbCircleNumber3Filled, TbCircleNumber4Filled, TbCircleNumber5Filled, TbCircleNumber6Filled } from "react-icons/tb";
 import People from '/src/Component/Body/People';
-import Logo from '/src/Component/Body/LOgo';
+import Logo from '/src/Component/Body/Logo';
 import Whyus from '/src/Component/Body/Whyus';
 import ContactUs from '/src/Pages/ContactUs/Contactus.jsx';
 import Mission from '/src/Component/Body/Mission';
