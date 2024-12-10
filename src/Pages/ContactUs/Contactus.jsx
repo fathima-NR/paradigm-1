@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import './contactus.css'; // Ensure this path matches where your CSS file is located
+import './Contactus.css'; // Ensure this path matches where your CSS file is located
 import { MdOutlineArrowOutward } from "react-icons/md";
 function ContactUs() {
   // Refs for the elements

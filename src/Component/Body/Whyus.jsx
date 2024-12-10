@@ -2,7 +2,7 @@
 import React, { useRef } from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-
+import './whyus.css'
 function Whyus() {
   const { ref: headingRef, inView } = useInView({
     triggerOnce: true, // Trigger animation only once when in view
