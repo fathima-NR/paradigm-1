@@ -5,11 +5,13 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+   "build": "react-scripts build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
-  "dependencies": {
+
+
+"dependencies": {
     "bootstrap": "^5.3.3",
     "framer-motion": "^11.13.1",
     "icons": "^1.0.0",
