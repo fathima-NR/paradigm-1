@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import './mission.css'; // Import your custom CSS file
-import mission1 from "/src/assets/service-image5.jpg"
+import mission1 from "/src/assets/abu-dhabi-seascape-with-skyscrapers.jpg"
 function Mission() {
   const [visibleSection, setVisibleSection] = useState(null);
 
