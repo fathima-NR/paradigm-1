@@ -1,5 +1,6 @@
 import React from 'react';
 import HomeAbout from '/src/Component/Body/HomeAbout.jsx';
+import banner from '/src/assets/building-with-modern-design.jpg'
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { TbCircleNumber1Filled, TbCircleNumber2Filled, TbCircleNumber3Filled, TbCircleNumber4Filled, TbCircleNumber5Filled, TbCircleNumber6Filled } from "react-icons/tb";
@@ -45,7 +46,7 @@ function Home() {
             <h1 style={{fontSize:"5vw"}}>PARADIGM ENGINEERING CONSULTANT</h1>
             <h3 className='mt-2'>--We Devicate to Create</h3></div>
             <div className="d-flex flex-column align-items-center justify-content-center">
-            <img className="img-fluid mb-5 pb-5 px-3" src="/src/assets/building-with-modern-design.jpg" alt="" />
+            <img className="img-fluid mb-5 pb-5 px-3" src={banner} alt="" />
         </div></div>
       <div className='mt-5'>
         <HomeAbout />
