@@ -13,6 +13,6 @@
   }
   @media (max-width: 768px) {
     .img1 {
-      height: 300px !important;  /* Adjust height for mobile view */
+      height: 250px !important;  /* Adjust height for mobile view */
     }
   }
