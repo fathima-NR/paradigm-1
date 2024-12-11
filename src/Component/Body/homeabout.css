@@ -8,4 +8,11 @@
   .custom-progress-bar .progress-bar {
     height: 100%; /* Ensures the progress bar fills the container */
   }
-  
+  .img1{
+    height:430px !important ;
+  }
+  @media (max-width: 768px) {
+    .img1 {
+      height: 300px !important;  /* Adjust height for mobile view */
+    }
+  }

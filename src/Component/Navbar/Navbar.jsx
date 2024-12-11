@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import logo from "/src/assets/logo.png";
+import logo from "/src/assets/Screenshot_20241211-112603 (1).png";
 import { IoSearch } from "react-icons/io5";
 import { SlMenu } from "react-icons/sl";
 import { FaPhoneAlt, FaEnvelope } from "react-icons/fa";
@@ -46,7 +46,7 @@ function Navbar() {
 
   return (
     <div className={`navbar-container ${isSticky ? 'sticky' : ''}`}>
-      <nav className="navbar navbar-expand-lg bg-light navbar-light">
+<nav className="navbar navbar-expand-lg bg-white navbar-light shadow-sm">
         <div className="container-fluid">
           <a className="navbar-brand" href="/"><img src={logo} className='img-fluid' alt="Logo" width={300} /></a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">

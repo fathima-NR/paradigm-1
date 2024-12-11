@@ -24,7 +24,7 @@ function Mission() {
       <div className='mx-5'>
         <motion.h1
           className='mt-5 mb-5'
-          style={{ fontSize: '8vw' }}
+          style={{ fontSize: '7vw' }}
           initial="hidden"
           animate={inView ? 'visible' : 'hidden'}
           variants={fadeInUp}

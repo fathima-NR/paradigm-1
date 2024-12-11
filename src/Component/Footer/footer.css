@@ -34,9 +34,9 @@
   }
   
   .footer .link:hover {
-    color: #4db4e5;
-    text-shadow:  1px 1px   black;
-    padding: 2px;
+    color: #969090;
+    text-shadow:  1px 1px 3px  black;
+    padding: 4px;
   }
   
   .footer .icon-circle {
@@ -46,7 +46,7 @@
     width: 35px; /* Adjust size as needed */
     height: 35px; /* Adjust size as needed */
     border-radius: 50%; /* Makes the span a circle */
-    background-color: #4db4e5; /* Background color of the circle */
+    background-color: #ffffff; /* Background color of the circle */
     color: black; /* Icon color */
     margin-left: 10px; /* Spacing between icons */
     font-size: 15px; /* Adjust the icon size */
@@ -59,15 +59,15 @@
   }
   
   .footer .icon-circle:hover {
-    color: black;
-    border: 1px solid #4db4e5;
+    color:#969090;
+    border: 1px solid #ffffff;
   }
   
   .footer .flash-effect {
     position: relative;
     overflow: hidden;
     border: 0;
-    background-color: #4db4e5; /* Initial background color */
+    background-color: #ffffff; /* Initial background color */
     color: black; /* Initial text color */
     padding: 10px 20px; /* Adjust padding to control button size */
     transition: background-color 0.4s ease, color 0.4s ease;
@@ -86,7 +86,7 @@
   
   .footer .flash-effect:hover {
     background-color: black; /* Background color on hover */
-    color: #4db4e5; /* Text color on hover */
+    color: #ffffff; /* Text color on hover */
   }
   
   .footer .flash-effect:hover::before {

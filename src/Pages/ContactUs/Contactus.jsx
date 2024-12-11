@@ -53,7 +53,7 @@ function ContactUs() {
       <div className="col-sm-6">
         <h1
           ref={headingRef}
-          className='heading1 fw-bold ms-5'
+          className='heading1  ms-5'
         >
           {splitText("Let's Talk" )} <MdOutlineArrowOutward/> 
         </h1>

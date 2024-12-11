@@ -54,8 +54,8 @@ function Home() {
       <div className='mx-5'>
         <motion.h1
           ref={headingRef}
-          className='ms-5 mt-5  mb-5'
-          style={{ fontSize: '8vw' }}
+          className='ms-2 mt-5  mb-5'
+          style={{ fontSize: '7vw' }}
           initial={{ opacity: 0, y: 50 }} // Initial state: hidden and moved down
           animate={{ opacity: headingInView ? 1 : 0, y: headingInView ? 0 : 50 }} // Animate to full opacity and move up
           transition={{ duration: 0.6 }}
@@ -64,79 +64,78 @@ function Home() {
         </motion.h1>
         <hr />
       </div>
-      <div className="row mt-5 mx-4 fw-bold pb-5">
-        <motion.div
-          ref={itemRef1}
-          className="col-sm-6 fs-2 p-2"
-          initial="hidden"
-          animate={itemInView1 ? "visible" : "hidden"}
-          variants={itemVariants}
-          transition={{ duration: 0.6, delay: 0.2 }}
-        >
-          <TbCircleNumber1Filled /> Architecture
+      <div className="row mt-5 mx-5 fw-bold pb-5">
+  <motion.div
+    ref={itemRef1}
+    className="col-sm-6 fs-3 p-3"
+    initial="hidden"
+    animate={itemInView1 ? "visible" : "hidden"}
+    variants={itemVariants}
+    transition={{ duration: 0.6, delay: 0.2 }}
+  >
+    <TbCircleNumber1Filled className="icon" /> Architecture
+  </motion.div>
 
-        </motion.div>
-        <motion.div
-          ref={itemRef2}
-          className="col-sm-6 fs-2 p-2"
-          initial="hidden"
-          animate={itemInView2 ? "visible" : "hidden"}
-          variants={itemVariants}
-          transition={{ duration: 0.6, delay: 0.4 }}
-        >
-          <TbCircleNumber2Filled />  Landscape
+  <motion.div
+    ref={itemRef2}
+    className="col-sm-6 fs-3 p-3"
+    initial="hidden"
+    animate={itemInView2 ? "visible" : "hidden"}
+    variants={itemVariants}
+    transition={{ duration: 0.6, delay: 0.4 }}
+  >
+    <TbCircleNumber2Filled className="icon" /> Landscape
+  </motion.div>
 
-        </motion.div>
-        <motion.div
-          ref={itemRef3}
-          className="col-sm-6 fs-2 p-2"
-          initial="hidden"
-          animate={itemInView3 ? "visible" : "hidden"}
-          variants={itemVariants}
-          transition={{ duration: 0.6, delay: 0.6 }}
-        >
-          <TbCircleNumber3Filled /> 
- Structural Engineering
+  <motion.div
+    ref={itemRef3}
+    className="col-sm-6 fs-3 p-3"
+    initial="hidden"
+    animate={itemInView3 ? "visible" : "hidden"}
+    variants={itemVariants}
+    transition={{ duration: 0.6, delay: 0.6 }}
+  >
+    <TbCircleNumber3Filled className="icon" /> Structural Engineering
+  </motion.div>
 
-        </motion.div>
-        <motion.div
-          ref={itemRef4}
-          className="col-sm-6 fs-2 p-2"
-          initial="hidden"
-          animate={itemInView4 ? "visible" : "hidden"}
-          variants={itemVariants}
-          transition={{ duration: 0.6, delay: 0.8 }}
-        >
-          <TbCircleNumber4Filled /> Interior Architecture
+  <motion.div
+    ref={itemRef4}
+    className="col-sm-6 fs-3 p-3"
+    initial="hidden"
+    animate={itemInView4 ? "visible" : "hidden"}
+    variants={itemVariants}
+    transition={{ duration: 0.6, delay: 0.8 }}
+  >
+    <TbCircleNumber4Filled className="icon" /> Interior Architecture
+  </motion.div>
 
+  <motion.div
+    ref={itemRef5}
+    className="col-sm-6 fs-3 p-3"
+    initial="hidden"
+    animate={itemInView5 ? "visible" : "hidden"}
+    variants={itemVariants}
+    transition={{ duration: 0.6, delay: 1.0 }}
+  >
+    <TbCircleNumber5Filled className="icon" /> Mechanical Engineering
+  </motion.div>
 
-        </motion.div>
-        <motion.div
-          ref={itemRef5}
-          className="col-sm-6 fs-2 p-2"
-          initial="hidden"
-          animate={itemInView5 ? "visible" : "hidden"}
-          variants={itemVariants}
-          transition={{ duration: 0.6, delay: 1.0 }}
-        >
-          <TbCircleNumber5Filled /> Mechanical Engineering
-         
-        </motion.div>
-        <motion.div
-          ref={itemRef6}
-          className="col-sm-6 fs-2 p-2"
-          initial="hidden"
-          animate={itemInView6 ? "visible" : "hidden"}
-          variants={itemVariants}
-          transition={{ duration: 0.6, delay: 1.2 }}
-        >
-          <TbCircleNumber6Filled />  Project Management
-        </motion.div>
-      </div>
+  <motion.div
+    ref={itemRef6}
+    className="col-sm-6 fs-3 p-3"
+    initial="hidden"
+    animate={itemInView6 ? "visible" : "hidden"}
+    variants={itemVariants}
+    transition={{ duration: 0.6, delay: 1.2 }}
+  >
+    <TbCircleNumber6Filled className="icon" /> Project Management
+  </motion.div>
+</div>
+
       <div style={{marginTop:"100px"}}>
         <Whyus/>
       </div>
-      <div style={{marginTop:"130px"}}>
+      <div style={{marginTop:"100px"}}>
         <Mission/>
       </div>
       <div style={{marginTop:"100px"}}>

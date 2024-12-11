@@ -2,7 +2,7 @@ import React from 'react';
 import './footer.css';
 import { FaFacebookF, FaInstagram, FaTwitter } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
-import logo from "/src/assets/logo.png";
+import logo from "/src/assets/Screenshot_20241211-112603 (1).png";
 function Footer() {
   return (
     <footer className="footer bg-dark ">

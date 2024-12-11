@@ -56,7 +56,7 @@ function People() {
             <div className='mx-5'>
                 <motion.h1
                     className='ms-3 mt-5 '
-                    style={{ fontSize: '8vw' }}
+                    style={{ fontSize: '7vw' }}
                     initial="hidden"
                     animate={isInView ? "visible" : "hidden"}
                     variants={{

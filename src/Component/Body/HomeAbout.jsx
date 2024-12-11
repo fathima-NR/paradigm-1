@@ -58,7 +58,7 @@ function HomeAbout() {
           transition={{ duration: 1 }}
           className="col-sm-5 d-flex justify-content-center align-items-center"
         >
-          <img className='img-fluid' src={aboutimg1} alt="" style={{ height: '550px' }} />
+          <img className='img-fluid img1' src={aboutimg1} alt="" />
         </motion.div>
 
         <motion.div
@@ -69,11 +69,11 @@ function HomeAbout() {
           transition={{ duration: 1 }}
           className="col-sm-7 d-flex flex-column justify-content-center align-items-center"
         >
-          <h5 className='mb-3'>Creating the Future</h5>
-          <h3 className='mb-5 fs-2 fw-bold'>Every Business Deserves Top-Notch Solutions</h3>
-          <p className='text-start mb-5 '>{`PARADIGM is a boutique consultancy offering cutting-edge services in architecture, structural design, interior design, and project management. With a focus on holistic solutions, it blends aesthetics and functionality, ensuring fast-track project delivery and exceeding client expectations.`}</p>
+          <h5 className='mb-1 mt-3'>Creating the Future</h5>
+          <h3 className='mb-3 fs-2 fw-bold'>Every Business Deserves Top-Notch Solutions</h3>
+          <p className='text-start mb-3 '>{`PARADIGM is a boutique consultancy offering cutting-edge services in architecture, structural design, interior design, and project management. With a focus on holistic solutions, it blends aesthetics and functionality, ensuring fast-track project delivery and exceeding client expectations.`}</p>
 
-          <div className="w-100 mb-3">
+          <div className="w-100 mb-2">
             <div className='d-flex justify-content-between'>
               <h6 className='mb-2'>Productivity</h6>
               <h6>80%</h6>
@@ -84,13 +84,13 @@ function HomeAbout() {
               initial={{ width: 0 }}
               animate={{ width: isVisible.progress ? '80%' : 0 }}
               transition={{ duration: 1 }}
-              className="progress custom-progress-bar mb-4"
+              className="progress custom-progress-bar mb-3"
             >
               <div className="progress-bar bg-dark" role="progressbar" aria-valuenow={80} aria-valuemin={0} aria-valuemax={100}></div>
             </motion.div>
           </div>
 
-          <div className="w-100 mb-3">
+          <div className="w-100 mb-2">
             <div className='d-flex justify-content-between'>
               <h6 className='mb-2'>Reliable</h6>
               <h6>95%</h6>
@@ -101,13 +101,13 @@ function HomeAbout() {
               initial={{ width: 0 }}
               animate={{ width: isVisible.progress ? '95%' : 0 }}
               transition={{ duration: 1 }}
-              className="progress custom-progress-bar mb-4"
+              className="progress custom-progress-bar mb-3"
             >
               <div className="progress-bar bg-dark" role="progressbar" aria-valuenow={95} aria-valuemin={0} aria-valuemax={100}></div>
             </motion.div>
           </div>
 
-          <div className="w-100 mb-3">
+          <div className="w-100 mb-2">
             <div className='d-flex justify-content-between'>
               <h6 className='mb-2'>Efficiency</h6>
               <h6>90%</h6>
@@ -118,7 +118,7 @@ function HomeAbout() {
               initial={{ width: 0 }}
               animate={{ width: isVisible.progress ? '90%' : 0 }}
               transition={{ duration: 1 }}
-              className="progress custom-progress-bar mb-4"
+              className="progress custom-progress-bar mb-3"
             >
               <div className="progress-bar bg-dark" role="progressbar" aria-valuenow={90} aria-valuemin={0} aria-valuemax={100}></div>
             </motion.div>
