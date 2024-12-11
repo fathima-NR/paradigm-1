@@ -61,9 +61,27 @@ function Navbar() {
                 <li className="nav-item">
                   <a href="/Aboutus" className="nav-link nav-link1" onClick={closeNavbar}>ABOUT US</a>
                 </li>
-                <li className="nav-item">
-                  <a href="/Services" className="nav-link nav-link1 " onClick={closeNavbar}>SERVICES</a>
-                </li>
+               
+                <li className="nav-item dropdown">
+  <a href="/Services" className="nav-link nav-link1" onClick={closeNavbar}>
+    SERVICES
+    <span className="dropdown-arrow"></span>
+  </a>
+  <ul className="dropdown-menu">
+    <li><a href="/Service1" className="dropdown-item">Service 1</a></li>
+    <li><a href="/Service2" className="dropdown-item">Service 2</a></li>
+    <li><a href="/Service3" className="dropdown-item">Service 3</a></li>
+  </ul>
+</li>
+
+<li className="nav-item dropdown">
+  <a href="/Services" className="nav-link nav-link1" onClick={closeNavbar}>PROJECTS</a>
+  <ul className="dropdown-menu">
+    <li><a href="/Service1" className="dropdown-item">Project 1</a></li>
+    <li><a href="/Service2" className="dropdown-item">Project 2</a></li>
+    <li><a href="/Service3" className="dropdown-item">Project 3</a></li>
+  </ul>
+</li>
                 <li className="nav-item">
                   <a href="/Contactus" className="nav-link nav-link1" onClick={closeNavbar}>CONTACT US</a>
                 </li>
